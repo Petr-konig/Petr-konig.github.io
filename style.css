@@ -1,0 +1,67 @@
+* {
+  margin:0%;
+}
+
+h1,h2,h3 {
+  font-family: 'Josefin Sans', sans-serif; ;
+  padding: 10px 10px 10px 0px;
+}
+
+body {
+  background-image: url(assets/topography.png);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color:#333333;
+  padding:0% 10%;
+  height:3em;
+}
+
+
+#nav {
+  height:100%;
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  background-color:#333333;
+  background-image: url(assets/aperture.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: inherit;
+}
+
+#nav > a {
+  text-transform: uppercase;
+  color:#ff0099;
+  box-sizing: border-box;
+  padding: 0em 0em 0em 1.5em;
+}
+
+
+main {
+  padding:0% 10%;
+  text-align: justify;
+}
+
+h1 {
+  padding-top: 3em;
+}
+
+#introduction > h3 {
+  color:#ff0099;
+}
+#introduction > p {
+  padding-bottom: 1em;
+}
+
+
+
+#dashes {
+  text-align: center;
+  padding: 3em 0px;
+}
+
+h2 {
+  text-align: center;
+}
